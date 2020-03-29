@@ -112,12 +112,12 @@ class HomeScreen extends StatelessWidget {
             CardBox(
               number: "20",
               description: "Sembuh",
-              backgroundColor: Colors.pink[700],
+              backgroundColor: Colors.pink[400],
             ),
             CardBox(
               number: "80",
               description: "Meninggal",
-              backgroundColor: Colors.purple[700],
+              backgroundColor: Colors.purple[400],
             ),
           ],
         ),
