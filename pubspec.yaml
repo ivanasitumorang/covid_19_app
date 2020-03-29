@@ -29,11 +29,12 @@ dependencies:
   charts_flutter: ^0.8.1
   flutter_swiper: ^1.1.6
   kiwi: ^0.2.0
-  kiwi_generator: ^0.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner:
+  kiwi_generator: ^0.4.0
 
 
 # For information on the generic Dart part of this file, see the
