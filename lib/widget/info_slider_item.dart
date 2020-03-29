@@ -19,7 +19,12 @@ class InfoSliderItem extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text(infoData.title),
+          Text(infoData.title,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+            color: Colors.deepPurple[800]
+          ),),
           Text(infoData.description),
         ],
       ),

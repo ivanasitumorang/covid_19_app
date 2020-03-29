@@ -67,7 +67,7 @@ class _InfoSliderState extends State<InfoSlider> {
           });
         },
         pagination: SwiperPagination(
-            margin: EdgeInsets.only(bottom: 8),
+            margin: EdgeInsets.only(bottom: 6),
             builder: DotSwiperPaginationBuilder(
               color: Colors.deepPurple[200],
               activeColor: Colors.deepPurple[700],
